@@ -1,0 +1,162 @@
+:root {
+  --background: #FFDBEE;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #FFDBEE;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: --font--libre-franklin, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* NAVBAR */
+
+.navbar-toggler {
+    border: 0 !important; /* Removes the default border */
+    /* You might also want to remove the border-radius if it's visible without the border */
+    border-radius: 0 !important;
+}
+
+        /* Remove the focus outline/shadow (important for accessibility, consider a different visual cue) */
+.navbar-toggler:focus {
+    box-shadow: none !important; /* Removes the focus outline shadow */
+    outline: none !important; /* Ensures no native browser outline appears */
+}
+
+.nav-link {
+  margin: 0 16px;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: normal;
+  color: #a35167;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+  display: flex; 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.navbar-logo{
+  align-items: start;
+  justify-content: start;
+  display: flex;
+}
+
+.nav-items{
+  align-items: end;
+  justify-content: end;
+  display: flex;
+}
+
+.nav-items ul {
+  gap: 25px;
+}
+
+.seperator-border{
+  border-bottom: #A35167 solid 2px;
+}
+
+.hero-container{
+  margin: 90px 0px;
+  align-items: center;
+}
+
+.hero-text-container{
+  padding-right: 90px;
+}
+
+.hero-intro-name{
+  color: #190608;
+  font-size: 20px;
+}
+
+.hero-titles{
+  font-size: 90px;
+}
+.hero-title-1{
+  color: #DB5F79;
+}
+
+.hero-title-2{
+  color: #190608;
+}
+
+.hero-buttons{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.hero-button{
+  padding: 10px 20px;
+  background-color: #DB5F79;
+  color: #190608;
+  border: 3px solid #190608;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.hero-button:hover{
+  background-color: #190608;
+  color: #DB5F79;
+  border:3px solid #DB5F79;
+}
+
+.about-container{
+  background-color: #4A202A;
+  color: #FFDBEE;
+  align-items: center;
+  padding: 100px;
+}
+
+.about-description{
+  font-size: 20px;
+  padding: 50px 50px 50px 0px; 
+}
+
+.about-button{
+  padding: 10px 20px;
+  background-color: #FFDBEE;
+  color: #4A202A;
+  border: 3px solid #4A202A;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.about-button:hover{
+  background-color: #4A202A;
+  color: #FFDBEE;
+  border:3px solid #FFDBEE;
+}
