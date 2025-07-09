@@ -42,15 +42,13 @@ a {
 /* NAVBAR */
 
 .navbar-toggler {
-    border: 0 !important; /* Removes the default border */
-    /* You might also want to remove the border-radius if it's visible without the border */
+    border: 0 !important; 
     border-radius: 0 !important;
 }
 
-        /* Remove the focus outline/shadow (important for accessibility, consider a different visual cue) */
 .navbar-toggler:focus {
-    box-shadow: none !important; /* Removes the focus outline shadow */
-    outline: none !important; /* Ensures no native browser outline appears */
+    box-shadow: none !important; 
+    outline: none !important; 
 }
 
 .nav-link {
@@ -65,7 +63,7 @@ a {
   white-space: nowrap;
   display: flex; 
   list-style-type: none; 
-  padding: 0; 
+  padding: 0;  
 }
 
 .navbar-logo{
@@ -144,6 +142,7 @@ a {
 .about-description{
   font-size: 20px;
   padding: 50px 50px 50px 0px; 
+  
 }
 
 .about-button{
