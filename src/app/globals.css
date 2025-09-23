@@ -191,15 +191,66 @@ a {
 
 .experience-container{
   background-color: #A35167;
-  color: #A35167;
   align-items: center;
   padding: 100px;
 }
 
 .experience-title{
   text-align: center;
+  -webkit-text-stroke: 2px #4A202A; 
+  color: #CE8297;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.experience-item{
+  margin-top: 60px;
+  padding: 30px;
+  color: #4A202A;
+  background-color: #CE8297;
+  border: 3px solid #4A202A;
+  border-top-right-radius: 60px;
+}
+
+.experience-role{
+  font-size: 24px;
+  font-weight: bold;
+  color: #190608;
+}
+
+.experience-dates{
+  font-weight: bold;
+}
+
+.skills-container{
+  background-color: #FFDBEE;
+  color: #DB5F79;
+  align-items: center;
+  padding: 100px;
+}
+
+.skills-title{
+  text-align: center;
   font-size: 90px;
   padding-bottom: 60px;
-  border: 2px solid #DB5F79;
-  display: inline-block; 
+}
+
+.skills-item{
+  text-align: center;
+  padding: 30px;
+  border: 3px solid #DB5F79;
+  border-bottom-right-radius: 60px;
+}
+
+.skills-icon{
+  width: 80px;
+  height: 80px;
+  object-fit: contain; /* keeps aspect ratio */
+}
+
+.skills-row {
+  display: flex;
+  padding:5px -15px 5px -15px;
+  justify-content: center;
+  gap: 3px;
 }
