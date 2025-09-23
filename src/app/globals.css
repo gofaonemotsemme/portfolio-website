@@ -224,7 +224,7 @@ a {
 
 .skills-container{
   background-color: #FFDBEE;
-  color: #DB5F79;
+  color: #C32349;
   align-items: center;
   padding: 100px;
 }
@@ -234,23 +234,43 @@ a {
   font-size: 90px;
   padding-bottom: 60px;
 }
-
 .skills-item{
   text-align: center;
   padding: 30px;
-  border: 3px solid #DB5F79;
+  margin: 30px;
+  border: 3px solid #C32349;
   border-bottom-right-radius: 60px;
 }
 
 .skills-icon{
   width: 80px;
   height: 80px;
-  object-fit: contain; /* keeps aspect ratio */
+}
+
+.skills-category{
+  text-decoration: underline;
+  text-decoration-color: #C32349;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 0px 30px 0px;
 }
 
 .skills-row {
-  display: flex;
-  padding:5px -15px 5px -15px;
-  justify-content: center;
-  gap: 3px;
+  margin-left: -5px;
+  margin-right: -5px;
+  justify-content: center; /* Optional: center the icons */
+}
+
+.skills-col {
+  padding: 10px 25px 10px 25px !important; /* Reduce from 10px to 5px */
+  margin: 0px; 
+  flex: 0 0 auto; /* Prevent columns from stretching */
+  width: auto; /* Let content determine width */
+}
+
+.soft-skill{
+  font-size: 20px;
+  border: 3px solid #C32349;
+  padding: 10px 0px;
+  font-weight: bold;
 }

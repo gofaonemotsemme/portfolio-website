@@ -18,35 +18,35 @@ const Skills = () => {
               </div>
             </div>
             <div className="row skills-row">
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/git.png" alt="Tech Stack" className='skills-icon'/>
               </div>
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/visual-studio.png" alt="Tech Stack" className='skills-icon'/>
               </div>
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/react.png" alt="Tech Stack" className='skills-icon'/>
               </div>
             </div>
             <div className="row skills-row">
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/html.png" alt="Tech Stack" className='skills-icon'/>
               </div>
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/css.png" alt="Tech Stack" className='skills-icon'/>
               </div>
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/js.png" alt="Tech Stack" className='skills-icon'/>
               </div>
             </div>
             <div className="row skills-row">
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/figma.png" alt="Tech Stack" className='skills-icon'/>
               </div>
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/programming-language.png" alt="Tech Stack" className='skills-icon'/>
               </div>
-              <div className="col">
+              <div className="col skills-col">
                 <img src="/images/blockchain.png" alt="Tech Stack" className='skills-icon'/>
               </div>
             </div>
