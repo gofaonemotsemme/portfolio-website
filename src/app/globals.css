@@ -159,3 +159,47 @@ a {
   color: #FFDBEE;
   border:3px solid #FFDBEE;
 }
+
+.education-container{
+  background-color: #FFDBEE;
+  color: #DB5F79;
+  align-items: center;
+  padding: 100px;
+}
+
+.education-title{
+  text-align: center;
+  font-size: 90px;
+  padding-bottom: 60px;
+}
+
+.education-item{
+  padding: 30px;
+  border: 3px solid #DB5F79;
+  border-bottom-right-radius: 60px;
+}
+
+.education-degree{
+  color: #4A202A;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.education-dates{
+  font-weight: bold;
+}
+
+.experience-container{
+  background-color: #A35167;
+  color: #A35167;
+  align-items: center;
+  padding: 100px;
+}
+
+.experience-title{
+  text-align: center;
+  font-size: 90px;
+  padding-bottom: 60px;
+  border: 2px solid #DB5F79;
+  display: inline-block; 
+}

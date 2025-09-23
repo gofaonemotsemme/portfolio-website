@@ -24,7 +24,7 @@ const About = () => {
                         width={600}
                         height={150}
                         className="about-image"
-                    />
+                    />                
                 </div>
             </div>
             <div className="row">
