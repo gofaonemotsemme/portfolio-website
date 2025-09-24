@@ -11,7 +11,7 @@ const Experience = () => {
       </div>
       </div> 
       <div className="row">
-        <div className="col">
+        <div className="col-12 col-lg-4">
           <div className="experience-item">
             <h3 className="experience-role">FRONTEND DEVELOPER</h3>
             <p className="experience-company">BOS Technology</p>
@@ -26,7 +26,7 @@ const Experience = () => {
             </ul>
           </div>
         </div>
-        <div className="col">
+        <div className="col-12 col-lg-4">
           <div className="experience-item">
             <h3 className="experience-role">JUNIOR DEVELOPER</h3>
             <p className="experience-company">WeThinkCode_</p>
@@ -40,7 +40,7 @@ const Experience = () => {
             </ul>
           </div>
         </div>
-        <div className="col"> 
+        <div className="col-12 col-lg-4"> 
           <div className="experience-item">
             <h3 className="experience-role">TECHNICAL MENTOR</h3>
             <p className="experience-company">WeThinkCode_</p>

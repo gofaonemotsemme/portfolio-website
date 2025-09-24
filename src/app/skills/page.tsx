@@ -11,7 +11,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col skills-item">
+        <div className="col-12 col-lg-6 skills-item">
             <div className="row">
               <div className="col">
                 <h3 className="skills-category">Tech Stack</h3>
@@ -51,7 +51,7 @@ const Skills = () => {
               </div>
             </div>
         </div>
-        <div className="col skills-item">
+        <div className="col-12 col-lg-6 skills-item">
           <div className="row">
             <div className="col">
               <h3 className="skills-category">Soft Skills</h3>

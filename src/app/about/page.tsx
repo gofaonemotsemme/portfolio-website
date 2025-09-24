@@ -10,9 +10,9 @@ const About = () => {
           <Image 
             alt="Profile image"
             src="/images/about-image.png"
-            width={400}
-            height={600}
-            className="about-image"
+            width={486}
+            height={686}
+            className="profile-image"
           />
         </div>
         <div className="col col-lg-7 about-text-container">
@@ -45,7 +45,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-      </div>
+      </div> 
     </section>
   );
 };

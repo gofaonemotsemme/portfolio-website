@@ -92,7 +92,7 @@ a {
 }
 
 .hero-text-container{
-  padding-right: 90px;
+  padding: 0px 100px 90px 0px;
 }
 
 .hero-intro-name{
@@ -139,6 +139,10 @@ a {
   padding: 100px;
 }
 
+.profile-image{
+  margin-bottom: 60px;
+}
+
 .about-description{
   font-size: 20px;
   padding: 50px 50px 50px 0px; 
@@ -175,6 +179,7 @@ a {
 
 .education-item{
   padding: 30px;
+  margin-bottom: 30px;
   border: 3px solid #DB5F79;
   border-bottom-right-radius: 60px;
 }
@@ -234,10 +239,11 @@ a {
   font-size: 90px;
   padding-bottom: 60px;
 }
+
 .skills-item{
   text-align: center;
-  padding: 30px;
-  margin: 30px;
+  padding: 20px;
+  margin: 4px;
   border: 3px solid #C32349;
   border-bottom-right-radius: 60px;
 }
@@ -272,5 +278,38 @@ a {
   font-size: 20px;
   border: 3px solid #C32349;
   padding: 10px 0px;
+  font-weight: bold;
+}
+
+.projects-container{
+  background-color: #CE6D8A;
+  color: #6E424D;
+  align-items: center;
+  padding: 100px;
+}
+
+.projects-title{
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+  color: #4A202A;
+  padding-bottom: 60px;
+}
+
+.project-card{
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 30px 45px 30px 45px;
+  margin: 20px;
+  border: 2px solid #ffffff;
+  border-bottom-right-radius: 60px;
+}
+
+.project-title{
+  font-weight: bold;
+  padding-top: 20px;
+  color: #190608;
+}
+
+.project-stack{
   font-weight: bold;
 }
